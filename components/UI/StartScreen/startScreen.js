@@ -1,5 +1,4 @@
 "use client";
-// components/StartScreen.tsx
 import { useState } from "react";
 
 const StartScreenComponent = ({ onStart }) => {

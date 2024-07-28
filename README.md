@@ -1,18 +1,15 @@
 ## Project Setup
 
 1. Clone the repository
-    ```bash
-    git clone <repository-url>
-    cd ovvy-frontend
-    ```
+    
 
 2. Install dependencies
-    ```bash
+    ```
     npm install
     ```
 
 3. Run the development server
-    ```bash
+    ```
     npm run dev
     ```
 
@@ -28,9 +25,9 @@
 
 ### Task 1: Guess the Dog Breed Game
 
-- **Route**: `/game`
+- **Route**: `/dog`
 - **Components**:
-  - `StartScreen`: User enters their name.
+  - `StartScreenComponent`: User enters their name.
   - `GameScreen`: Displays a dog image and four options for the breed.
 - **API**: Uses the Dog CEO API to fetch dog images and breed information.
 - **Features**:
@@ -38,4 +35,3 @@
   - Game screen with dog image and breed options.
   - Score counter that increments for correct answers.
   - Result screen when the user selects a wrong answer.
-  
